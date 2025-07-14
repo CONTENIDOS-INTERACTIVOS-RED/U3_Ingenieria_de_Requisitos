@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Validación y verificación de requisitos',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Métodos de validación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Concepto y objetivos de la validación de requisitos',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Técnicas formales e informales de validación',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Revisión con el cliente como técnica de validación',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Prototipado y simulación para validar requisitos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -36,47 +48,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Revisión con el cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Importancia de la revisión con el cliente',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Tipos de revisión con el cliente',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Roles y responsabilidades en la revisión',
             hash: 't_2_3',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '2.4',
+            titulo: 'Herramientas y buenas prácticas',
+            hash: 't_2_4',
           },
         ],
       },
@@ -118,26 +115,122 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Gil Pascual, J. A. (2016). Técnicas e instrumentos para la recogida de información. UNED - Universidad Nacional de Educación a Distancia.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48876',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Fresno Chávez, C. (2018). ¿Cómo gestionar la información científico-técnica? Ciudad Educativa. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/36730 ',
+    },
+    {
+      referencia:
+        'Pressman, R. S., & Maxim, B. R. (2021). Ingeniería de software: Un enfoque práctico (9.ª ed.). McGraw-Hill Education.  ',
+      link: 'http://artemisa.unicauca.edu.co/~cardila/IS__Libro_Pressman_7.pdf',
+    },
+    {
+      referencia:
+        'Sommerville, I. (2016). Ingeniería de software (10.ª ed.). Pearson Educación. ',
+      link:
+        'https://dn790001.ca.archive.org/0/items/bme-vik-konyvek/Software%20Engineering%20-%20Ian%20Sommerville.pdf',
+    },
+    {
+      referencia:
+        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de software. Corporación Universitaria Remington.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68913',
+    },
+    {
+      referencia:
+        'Universidad Politécnica Salesiana. (2021). Priorización de requisitos para una adecuada calidad de software.  ',
+      link:
+        'https://dspace.ups.edu.ec/bitstream/123456789/20957/1/UPS-GT003395.pdf',
+    },
+    {
+      referencia:
+        'Zapata Jaramillo, C. M. (2006). Alineación entre metas organizacionales y elicitación de requisitos del software. Red Dyna.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/304',
+    },
+    {
+      referencia:
+        'Genero Bocco, M., Cruz Lemus, J. A. & Piattini Velthuis, M. G. (2014). Métodos de investigación en ingeniería del software. RA-MA Editorial.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106450',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Deseo',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'característica adicional que mejora la experiencia del usuario, pero cuya ausencia no impide el funcionamiento del sistema.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Encuesta',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'instrumento estandarizado de recolección de datos que permite obtener información de múltiples usuarios de forma estructurada y cuantificable.',
+    },
+    {
+      termino: 'Entrevista estructurada',
+      significado:
+        'técnica de recolección de información en la que se usan preguntas predefinidas y en un orden fijo, facilitando el análisis comparativo.',
+    },
+    {
+      termino: 'Entrevista semi-estructurada',
+      significado:
+        'método de entrevista con preguntas guía que permiten flexibilidad para profundizar, según las respuestas del entrevistado.',
+    },
+    {
+      termino: 'Historia de usuario (<em>User Story</em>)',
+      significado:
+        'descripción breve y simple de una funcionalidad deseada escrita desde la perspectiva del usuario: "Como [rol], quiero [funcionalidad] para [beneficio]".',
+    },
+    {
+      termino: 'MoSCoW',
+      significado:
+        'técnica de priorización que clasifica los requisitos en cuatro categorías: <em>Must have</em> (imprescindibles), <em>Should have</em> (importantes), <em>Could have</em> (deseables), <em>Won’t have</em> (no necesarios por ahora).',
+    },
+    {
+      termino: 'Necesidad',
+      significado:
+        'condición esencial para resolver un problema o alcanzar un objetivo. Se diferencia del deseo, que es una preferencia sin obligatoriedad.',
+    },
+    {
+      termino: 'Observación directa',
+      significado:
+        'técnica de levantamiento de requisitos que consiste en observar al usuario en su entorno real para identificar tareas, problemas y comportamientos.',
+    },
+    {
+      termino: 'Prototipo',
+      significado:
+        'representación preliminar de un sistema o producto, que permite validar y refinar los requisitos con los usuarios antes de la construcción final.',
+    },
+    {
+      termino: 'Requisito',
+      significado:
+        'condición o capacidad necesaria que debe tener un sistema para satisfacer las necesidades del usuario o alcanzar objetivos específicos.',
+    },
+    {
+      termino: 'Requisito inicial',
+      significado:
+        'formulación preliminar de un requerimiento basado en la información recolectada, aún sujeta a validación y refinamiento.',
+    },
+    {
+      termino: 'Stakeholder',
+      significado:
+        'persona o grupo que tiene interés o se ve afectado por un sistema, producto o proyecto. Incluye usuarios finales, clientes, desarrolladores, patrocinadores, entre otros.',
+    },
+    {
+      termino: '<em>Story Mapping</em>',
+      significado:
+        'Técnica visual que organiza historias de usuario en un mapa para mostrar la relación entre tareas y valor entregado al usuario.',
+    },
+    {
+      termino: 'Validación de requisitos',
+      significado:
+        'Proceso mediante el cual se confirma que los requisitos documentados reflejan correctamente las necesidades del cliente y son técnicamente viables.',
+    },
+    {
+      termino: '<em>Workshop</em>',
+      significado:
+        'Taller participativo en el que diversos <em>stakeholders</em> colaboran para identificar, discutir y priorizar requisitos del sistema.',
     },
   ],
 }
