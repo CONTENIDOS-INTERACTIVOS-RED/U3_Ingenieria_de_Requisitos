@@ -438,7 +438,7 @@
                 a(href="https://open.umn.edu/opentextbooks/textbooks/1423 " target="_blank" rel="noopener noreferrer") Celi-Párraga, R. J., Boné-Andrade, M. F., Mora-Olivero, A. P. & Sarmiento-Saavedra, J. C. (2023). Ingeniería del <em>software</em> I: Requerimientos y Modelado del <em>software</em>. Editorial Grupo AEA. 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.ctr.unican.es/asignaturas/is1/IEEE830_esp.pdf" target="_blank" rel="noopener noreferrer") Institute of Electrical and Electronics Engineers. (1998). Especificaciones de los requisitos del <em>software</em>. IEEE.  
+                a(href="https://visuresolutions.com/es/alm-guide/requirements-verification-and-validation/" target="_blank" rel="noopener noreferrer") Visure. (s.f.). Verificación y validación de requisitos en ingeniería de software. Visure Solutions. 
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
